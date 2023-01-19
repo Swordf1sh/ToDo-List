@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    background-color: aqua;
+    position: relative;
+    left: 25%;
+    overflow-x: auto;
+    padding: 5px;
+}
+
+.header {
+    font-size: 2em;
+}
+
+.input-form {
+    width: 90%;
+    display: flex;
+    gap: 5px;
+}
+
+#input-task {
+    flex: 1;
+}
+
+.task-list {
+    background-color: blueviolet;
+    width: 90%;
+    flex: 1 1;
+}
